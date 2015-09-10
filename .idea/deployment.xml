@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="laravel-express">
+    <serverData>
+      <paths name="laravel-express">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="larave-express" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
