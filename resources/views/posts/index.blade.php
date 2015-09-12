@@ -12,6 +12,12 @@
             <b>Name: </b> {{$comment->name}}
             <b>Comentário: </b> {{$comment->comment}}
         @endforeach
+        <b>Tags: </b><br />
+        <ul>
+            @foreach($post->tags as $tag )
+                <li>{{ $tag->name }}</li>
+            @endforeach
+        </ul>
         <hr />
     @endforeach
 
